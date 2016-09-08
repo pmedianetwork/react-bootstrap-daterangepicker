@@ -47,10 +47,11 @@ For in depth documentation, see the original
 You can pass all the same props as the original plugin:
 
 - **&lt;input&gt;, alwaysShowCalendars, applyClass, autoApply, autoUpdateInput,
-  buttonClasses, cancelClass, dateLimit, drops, endDate, isInvalidDate,
-  linkedCalendars, locale, maxDate, minDate, opens, parentEl, ranges,
-  showDropdowns, showWeekNumbers, singleDatePicker, startDate, template,
-  timePicker, timePicker24Hour, timePickerIncrement, timePickerSeconds, timeZone**
+  buttonClasses, cancelClass, dateLimit, drops, endDate, isCustomDate,
+  isInvalidDate, linkedCalendars, locale, maxDate, minDate, opens, parentEl,
+  ranges, showCustomRangeLabel, showDropdowns, showISOWeekNumbers,
+  showWeekNumbers, singleDatePicker, startDate, template, timePicker,
+  timePicker24Hour, timePickerIncrement, timePickerSeconds**
 
 You can listen to the following 7 events:
 
@@ -90,6 +91,10 @@ We will try to release a new version of this project with each new
 release.  We will bump the major version with each React release.  If you are using
 a specific version of `react` or `react-bootstrap`, make sure you specify the correct
 version of `react-bootstrap-daterangepicker` in your package.json file.
+
+- React 15: react-bootstrap-daterangepicker v3.0.0+
+- React 14: react-bootstrap-daterangepicker v1.0.0+
+- React 13: react-bootstrap-daterangepicker v0.0.1+
 
 
 ## Links
