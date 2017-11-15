@@ -7,7 +7,8 @@
 
 ## Description
 
-A date/time picker for react (using bootstrap). This is a react port of:
+A date/time picker for react (using bootstrap). This is a react wrapper around
+an existing jQuery/bootstrap library (it is not a pure react port):
 
 [bootstrap-daterangepicker](https://github.com/dangrossman/bootstrap-daterangepicker)
 
@@ -16,7 +17,9 @@ A date/time picker for react (using bootstrap). This is a react port of:
 
 1) Install the module with: `npm install --save react-bootstrap-daterangepicker`
 
-2) Create your module (you need to use something like browserify to build)
+2) Install the needed peer dependencies: `npm install --save react react-dom jquery create-react-class prop-types`
+
+3) Create your module (you need to use something like browserify to build)
 
 ```javascript
 var React = require('react');
@@ -33,7 +36,7 @@ var someReactComponent = React.createClass({
 });
 ```
 
-3) Include the daterangepicker CSS in your project somewhere. The CSS file is here: [daterangepicker.css](https://raw.githubusercontent.com/skratchdot/react-bootstrap-daterangepicker/master/css/daterangepicker.css) (don't hotlink- download and host your own copy)
+4) Include the daterangepicker CSS in your project somewhere. The CSS file is here: [daterangepicker.css](https://raw.githubusercontent.com/skratchdot/react-bootstrap-daterangepicker/master/css/daterangepicker.css) (don't hotlink- download and host your own copy)
 
 ```html
 <link rel="stylesheet" href="daterangepicker.css" type="text/css" />
@@ -92,9 +95,10 @@ release.  We will bump the major version with each React release.  If you are us
 a specific version of `react` or `react-bootstrap`, make sure you specify the correct
 version of `react-bootstrap-daterangepicker` in your package.json file.
 
-- React 15: react-bootstrap-daterangepicker v3.0.0+
-- React 14: react-bootstrap-daterangepicker v1.0.0+
-- React 13: react-bootstrap-daterangepicker v0.0.1+
+- React 15: react-bootstrap-daterangepicker v3.x.x
+- React 14: react-bootstrap-daterangepicker v1.x.x
+- React 13: react-bootstrap-daterangepicker v0.x.x
+- React 14/15 Experimental: react-bootstrap-daterangepicker v2.x.x (do not use)
 
 
 ## Links
