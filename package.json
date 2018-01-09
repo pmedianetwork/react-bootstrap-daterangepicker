@@ -18,8 +18,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "bootstrap-daterangepicker": "^2.1.25",
-    "object-assign": "^4.1.1"
+    "bootstrap-daterangepicker": "2.1.27",
+    "object-assign": "4.1.1"
   },
   "peerDependencies": {
     "create-react-class": ">=15.5.0",
